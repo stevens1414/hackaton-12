@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/css.css">
+    
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+   <div class="container">
+    <h1>DROPDOWN</h1>
+    <div class="menu">
+        <div class="title" onclick="f()">Menú <i class="fas fa-bars"></i>
+            <div class="arrow"></div>
+        </div>
+        <div class="dropdown">
+            <a href="./acordeon.html"><p class="r">acordeon <i class="fas fa-copy"></i></p></a>
+           <a href="javascript:abrir()"><p class="r" id="vent" >modal<i class="far fa-window-maximize"></i></p></a>
+            <a href="#"> <p class="r">Configuración <i class="fas fa-cog"></i></p></a>
+           
+        </div>
+    </div>   
+</div>
+<div class="ventana" >
+    <div id="cerrar"><i class="fas fa-times"></i></div>
+    <p>Bienvenido a mi modal</p> 
+</div>
+
+  
+    <script src="./script/modal.js"></script>
+  
+   <script src="./script/main.js"></script>
+</body>
+</html>
